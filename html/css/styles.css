@@ -1,0 +1,180 @@
+@import url("../media.scss");
+
+body {
+    background-image: linear-gradient(to right, #122239, #00275f, #002a84, #0025a6, #2a0bc2);
+    max-height: 600px;
+}
+
+nav {
+    /*background-image: linear-gradient(to right, #1a3f0c, #246a0f, #289811, #24c912, #00fd15);*/
+    background-image: linear-gradient(to right, #296019, #337b20, #3c9728, #45b430, #4dd238);
+}
+
+.ancho {
+    width: 120px;
+}
+
+.card-width {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-left: 3%;
+}
+
+@media (min-width: 1190px) {
+    .card {
+        width: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 25%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.card-img {
+    height: 286px;
+}
+
+/*Form reserva*/
+
+input,
+select {
+    width: 93%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ab4493;
+    margin: 2% 5% 0% 5%;
+    padding: 0% 5% 0% 3%;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+    padding: 2% 3% 0% 0%;
+}
+
+.formulario input:focus,
+select:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+/* .size {
+    max-height: 300px;
+    max-width: 500px;
+}  */
+
+/*Contact*/
+.contact_form {
+    width: 35%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #fbfbfb;
+    padding-left: 3%;
+    margin-bottom: 2%;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 93%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 93%;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 3%;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 3%
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+.buttonContact {
+    height: 45px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 90%;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #ab4493;
+}
+
+.title {
+    padding: 2% 2% 2% 2%;
+    margin: auto;
+    text-align: center;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+    padding-top: 2%;
+    padding-right: 3%;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+#contact {
+    color: white;
+}
